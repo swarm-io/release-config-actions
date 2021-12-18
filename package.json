@@ -1,6 +1,6 @@
 {
   "name": "@swarm-io/release-config-actions",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Shareable release configuration for github action releases",
   "main": "index.js",
   "scripts": {
