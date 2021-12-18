@@ -33,4 +33,3 @@ jobs:
         env:
           # github.token can't trigger workflows, we want the created release to trigger other workflows, so use the runner token
           GITHUB_TOKEN: ${{ secrets.GIT_RUNNER_TOKEN }}
-
