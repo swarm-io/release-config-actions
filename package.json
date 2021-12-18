@@ -11,7 +11,7 @@
     "url": "git+https://github.com/swarm-io/release-config-actions.git"
   },
   "author": "zack stevens",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/swarm-io/release-config-actions/issues"
   },
@@ -19,5 +19,8 @@
   "dependencies": {
     "semantic-release": "^18.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }
