@@ -9,12 +9,9 @@ on:
       - index.js
       - package.json
       - package-lock.json
-  push:
-    branches:
-      - main
 jobs:
   release:
-#    if: github.event.pull_request.merged == true
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     env:
       NPM_TOKEN:
