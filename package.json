@@ -1,0 +1,23 @@
+{
+  "name": "@swarm-io/release-config-actions",
+  "version": "0.0.0",
+  "description": "Shareable release configuration for github action releases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarm-io/release-config-actions.git"
+  },
+  "author": "zack stevens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swarm-io/release-config-actions/issues"
+  },
+  "homepage": "https://github.com/swarm-io/release-config-actions#readme",
+  "dependencies": {
+    "semantic-release": "^18.0.1"
+  },
+  "devDependencies": {}
+}
